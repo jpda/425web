@@ -1,0 +1,27 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: black;
+}
+
+.footer-border {
+  background: rgb(0, 0, 0);
+  padding: 40px 10px;
+  margin-top: 0px;
+  border-top: 12px solid;
+  border-image: linear-gradient(to right, rgb(94, 190, 97) 25%, rgb(206, 150, 249) 25%, rgb(206, 150, 249) 50%, rgb(92, 226, 249) 50%, rgb(92, 226, 249) 75%, rgb(88, 48, 255) 75%) 4 / 1 / 0 stretch;
+}
