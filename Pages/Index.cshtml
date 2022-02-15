@@ -6,24 +6,192 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-12" style="padding:0px 0px 50px 100px;">
             <img src="~/images/425-logo.png" alt="425 logo" height="150px" class="img-responsive" />
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-12">
-            <!-- TODO check for environment and chante parent domain name -->
-
-            <iframe
-                src="https://player.twitch.tv/?channel=425show&parent=localhost&muted=true"
-                height="720"
-                width="1280"
-                muted="true"
-                allowfullscreen="true">
-            </iframe>
+</div>
+<div>
+    <img class="hero-image" src="~/images/HeroGraphic@2x.svg" alt="425 Show Hero Graphic">
+</div>
+<div class="hero-video-content">
+    <iframe title="Hero Video"
+        src="https://www.youtube.com/embed/uDlNpFF0RIo?controls=0" 
+        scrolling="no"
+        frameborder="0" 
+        width="850px"
+        height="500px"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+    </iframe>
+</div>
+<div class="colorful-separator" style="padding:100px">
+    <div class="container">
+        <div class="row text-center">
+            <h3 class="hero-header">
+                Learn, Connect, and Build with Microsoft <span class="pink-text">Identity</span>
+            </h3>
+            <h4 class="hero-subheader">
+                Hands down this is the best place to learn about Microsoft Identity! Join us as we 
+                host live streams with the community, help you build end-to-end scenarios, and interview 
+                industry experts so you can find the tools and content you need to implement secure, 
+                scalable solutions.
+            </h4>
         </div>
     </div>
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+
+<div class="stream-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-start">
+                <h2 class="pink-text fw-bold">Watch and Learn</h2>
+                <h3 class="fw-light">Come watch us live as we Build, Learn, and Connect with other developers about all things Identity.</h3>
+            </div>
+        </div>
+        <div class="row text-center">
+            <!-- TODO check for environment and change the parent domain name -->
+            <div class="twitch-container">
+                <iframe
+                    src="https://player.twitch.tv/?channel=425show&parent=localhost&muted=true"
+                    height="480"
+                    width="854"
+                    muted="true"
+                    allowfullscreen="true">
+                </iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="youtube-container">
+    <div class="container text-end">
+        <div class="row">
+            <div class="col-md-3">
+                <img class="twitch-offline-image" src="~/images/offline_sleep.svg" alt="YouTube Offline">
+            </div>
+            <div class="col-md-9">
+                <h2 class="fw-bold">Looking for More Content?</h2>
+                <h3 class="fw-light">
+                    Watch the streams you missed and find 
+                    additional how-to content on our <a href="https://aka.ms/425Show/youtube">YouTube channel.</a>
+                </h3>
+            </div>
+        </div>
+        <div class="row">
+            @foreach(var video in Model.YouTubeVideos)
+            {
+                <div class="col-md-4">
+                    <a href=@video.Link>
+                        <img class="youtube-thumbnail" src="@video.ThumbnailUrl" alt="@video.Title">
+                    </a>
+                </div>
+            } 
+        </div>
+    </div>
+</div>
+
+<div class="discord-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9 text-start">
+                <h2 class="fw-bold">Looking for More Content?</h2>
+                <h3 class="fw-light">
+                   Join the 425 Show Discord community to get connected with us and other 
+                   experts to help accelerate your Identity journey. 
+                </h3>
+            </div>
+            <div class="col-md-3 text-end">
+                <img class="discord-image" src="~/images/Discord@2x.svg" alt="Discord logo">
+            </div>
+        </div>
+        <div class="row" style="margin:15px 0;">
+            <div class="col-md-10 text-center">
+            </div>
+            <div class="col-md-2 text-center">
+                <a href="https://aka.ms/425Show/discord/join" class="btn btn-outline-light btn-lg">Join Discord</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="blog-container">
+    <div class="container text-end">
+        <h2 class="fw-bold">Explore our blog for <br>
+        End-To-End Scenarios</h2>
+    </div>
+    <div class="container">
+        <div class="row justify-content-evenly" id="bloglist">
+            <!-- populate dynamically via JS -->
+        </div>
+        <div class="row row-grid" style="padding:25px 0px">
+            <div class="col-md-10 text-center">
+            </div>
+            <div class="col-md-2 text-center">
+                <a href="https://aka.ms/425Show/blog" class="btn btn-outline-dark btn-lg">Read More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="social-container">
+    <div class="container text start">
+        <h2 class="fw-bold">Connect with us</h2>
+    </div>
+    <div class="container">
+        <div class="row justify-content-evenly">
+            <div class="col-md-2 text-center">
+                <a href="https://aka.ms/425Show/twitter" class="btn btn-outline-light btn-lg">
+                    <img src="~/images/rss.png" alt="425Show Dev.to RSS"/>
+                </a>
+            </div
+            <div class="col-md-2 text-center"></div
+            <div class="col-md-2 text-center"></div
+            <div class="col-md-2 text-center"></div
+            <div class="col-md-2 text-center"></div
+        </div>
+    </div>
+</div>
+
+<script>
+    window.onload = (function () {
+    fetch("https://dev.to/feed/425show")
+        .then(response => response.text())
+        .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
+        .then(data => {
+            const items = data.querySelectorAll("item");
+            let html = ``;
+            let shouldBailOut = false;
+            let counter = 0
+            items.forEach(el => {
+                if(shouldBailOut) {
+                    return;
+                }
+                if(counter > 2) {
+                    shouldBailOut = true;
+                    return;
+                }
+
+                let link = el.querySelector("link").textContent;
+                let author = el.querySelector("author").textContent;
+                let title = el.querySelector("title").textContent;
+                let description = el.querySelector("description").textContent.substring(0,150) + '...';
+                html += `
+                    <div class="col-md-3 text-end border border-2 border-primary rounded blog-item">
+                        <a href="${link}" target="_blank" rel="noreferrer">
+                            <span style="color:black"><strong>${title}</strong></span>
+                            <div style="margin-top:15px; color:gray;">
+                                <strong>${author}</strong>
+                            </div>
+                            <div style="margin-top:15px">
+                                ${description}
+                            </div>
+                        </a>
+                    </div>
+                `;
+                counter++;
+            });
+            document.querySelector("#bloglist").insertAdjacentHTML("beforeend", html);
+        });
+    });
+
+</script>
