@@ -26,6 +26,28 @@
                 "linktext": "Free Azure AD Dev Training for Devs",
                 "linkurl": "https://github.com/microsoft/AzureADGraphApps"
             }
+        ],
+        "participants": [
+            {
+                "name": "Mark Morowczynski",
+                "link": "https://twitter.com/markmorow"
+            },
+            {
+                "name": "Jeff Kazimer",
+                "link": "https://twitter.com/jeftek"
+            },
+            {
+                "name": "Bailey Bercik",
+                "link": "https://twitter.com/BaileyBercik"
+            },
+            {
+                "name": "Kyle Marsh",
+                "link": "https://twitter.com/kylemarsh"
+            },
+            {
+                "name": "Akanksha Niraliya Garg",
+                "link": "https://twitter.com/aksGarg"
+            }
         ]
     },
     {
@@ -59,7 +81,32 @@
                 "linktext": "Microsoft DID Official Documentation",
                 "linkurl": "https://425.show/vcdocs"
             }
-
+        ],
+        "participants": [
+            {
+                "name": "Mark Morowczynski",
+                "link": "https://twitter.com/markmorow"
+            },
+            {
+                "name": "Jeff Kazimer",
+                "link": "https://twitter.com/jeftek"
+            },
+            {
+                "name": "Bailey Bercik",
+                "link": "https://twitter.com/BaileyBercik"
+            },
+            {
+                "name": "Christos Matskas",
+                "link": "https://twitter.com/christosmatskas"
+            },
+            {
+                "name": "Shannon Kuehn",
+                "link": "https://twitter.com/shankuehn"
+            },
+            {
+                "name": "Rohit Gulati",
+                "link": "https://twitter.com/MrRohitGulati"
+            }
         ]
     }
 ]

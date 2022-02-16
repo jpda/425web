@@ -27,6 +27,14 @@ public class Link
     public string? LinkUrl { get; set; }
 }
 
+public class Participant
+{
+    [JsonPropertyName("name")]
+    public string? Name { get; set; }
+    [JsonPropertyName("link")]
+    public string? Link { get; set; }
+}
+
 public class TwitterSpace
 {
     [JsonPropertyName("topic")]
@@ -41,6 +49,9 @@ public class TwitterSpace
     public string? Summary { get; set; }
     [JsonPropertyName("links")]
     public List<Link>? Links { get; set; }
+
+    [JsonPropertyName("participants")]
+    public List<Participant>? Participants { get; set; }
 
     public DateTimeOffset StartDate{
         get {

@@ -89,6 +89,19 @@
                         }
                     </div>
                 </div>
+                <div class="row" >
+                    <div class="col-md-3 text-start">
+                        <h5 class="fw-bold">Contact Us:</h5>
+                    </div>
+                    <div class="col-md-9 text-start">
+                        @foreach(var participant in space.Participants)
+                        {
+                            <h5 class="fw-lighter">
+                                <a href="@participant.Link" class="text-info" style="text-decoration:none">@participant.Name</a>
+                            </h5>
+                        }
+                    </div>
+                </div>
             </div>
         }
     </div>
