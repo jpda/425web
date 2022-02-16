@@ -18,9 +18,78 @@
     </div>
 </div>
 <div class="container-spaces" >
-    <div class="container" style="border-bottom: 1px solid white">
-        <h2>Upcoming</h2>
-        <h4 class="fw-lighter">It happened yesterday!</h4>
+    <div class="container">
+        @foreach(var space in Model.TwitterSpaces)
+        {
+            <div class="twitter-space-item" style="border-bottom: 1px solid white; padding:20px 0px">
+                <div class="row" >
+                    <div class="col-md-3 text-start">
+                        <h5 class="fw-bold">Topic:</h5>
+                    </div>
+                    <div class="col-md-9 text-start">
+                        <h5 class="fw-lighter">@space.Topic</h5>
+                    </div>
+                </div>
+                <div class="row" >
+                    <div class="col-md-3 text-start">
+                        <h5 class="fw-bold">Link:</h5>
+                    </div>
+                    <div class="col-md-9 text-start">
+                        <h5 class="fw-lighter">
+                            <a href="@space.Link">Listen Now</a>
+                        </h5>
+                    </div>
+                </div>
+                <div class="row" >
+                    <div class="col-md-3 text-start">
+                        <h5 class="fw-bold">Recording Date:</h5>
+                    </div>
+                    <div class="col-md-9 text-start">
+                        <h5 class="fw-lighter">@space.StartDate.Date.ToShortDateString()</h5>
+                    </div>
+                </div>
+                <div class="row" >
+                    <div class="col-md-3 text-start">
+                        <h5 class="fw-bold">Expiry Date:</h5>
+                    </div>
+                    <div class="col-md-9 text-start">
+                        <h5 class="fw-lighter">
+                            @space.EndDate.Date.ToShortDateString()
+                            @if(space.EndDate.Date > DateTime.Now.Date)
+                            {
+                                <span class="fw-lighter">(Expires in @space.EndDate.Date.Subtract(DateTime.Now.Date).Days days)</span>
+                            }
+                            else
+                            {
+                                <span class="fw-lighter" style="color:red">(Expired)</span>
+                            }
+                        </h5>
+                    </div>
+                </div>
+                <div class="row" >
+                    <div class="col-md-3 text-start">
+                        <h5 class="fw-bold">Summary:</h5>
+                    </div>
+                    <div class="col-md-9 text-start">
+                        <h5 class="fw-lighter">
+                            @space.Summary
+                        </h5>
+                    </div>
+                </div>
+                <div class="row" >
+                    <div class="col-md-3 text-start">
+                        <h5 class="fw-bold">Useful links:</h5>
+                    </div>
+                    <div class="col-md-9 text-start">
+                        @foreach(var link in space.Links)
+                        {
+                            <h5 class="fw-lighter">
+                                <a href="@link.LinkUrl">@link.LinkText</a>
+                            </h5>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
     </div>
-    
 </div>

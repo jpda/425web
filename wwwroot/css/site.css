@@ -225,9 +225,16 @@ a {
   transform:scale(1.08);
 }
 
+@media (min-width: 1024px) {
+  .container-spaces {
+    padding-left:200px;
+    padding-right:200px;
+  }
+}
+  
 .container-spaces{
   min-height:500px; 
-  padding-top:100px;
+  padding-top:20px;
 }
 
 .footer-border {
