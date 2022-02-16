@@ -1,7 +1,7 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "425Show";
 }
 
 <div class="container">
@@ -40,7 +40,7 @@
     </div>
 </div>
 
-<div class="stream-container">
+<div class="stream-container" id="twitch">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-start">
@@ -63,7 +63,7 @@
     </div>
 </div>
 
-<div class="youtube-container">
+<div class="youtube-container" id="youtube">
     <div class="container text-end">
         <div class="row">
             <div class="col-md-3">
@@ -90,7 +90,7 @@
     </div>
 </div>
 
-<div class="discord-container">
+<div class="discord-container" id="discord">
     <div class="container">
         <div class="row">
             <div class="col-md-9 text-start">
@@ -114,7 +114,7 @@
     </div>
 </div>
 
-<div class="blog-container">
+<div class="blog-container" id="blog">
     <div class="container text-end">
         <h2 class="fw-bold">Explore our blog for <br>
         End-To-End Scenarios</h2>
@@ -133,21 +133,48 @@
     </div>
 </div>
 
-<div class="social-container">
+<div class="social-container" id="social">
     <div class="container text start">
         <h2 class="fw-bold">Connect with us</h2>
     </div>
-    <div class="container">
+    <div class="container" style="margin-top:50px;">
         <div class="row justify-content-evenly">
             <div class="col-md-2 text-center">
-                <a href="https://aka.ms/425Show/twitter" class="btn btn-outline-light btn-lg">
-                    <img src="~/images/rss.png" alt="425Show Dev.to RSS"/>
+                <a href="https://aka.ms/425Show/blog">
+                    <img src="~/images/rss.png" alt="425Show Blog" />
                 </a>
-            </div
-            <div class="col-md-2 text-center"></div
-            <div class="col-md-2 text-center"></div
-            <div class="col-md-2 text-center"></div
-            <div class="col-md-2 text-center"></div
+                <h5>Read our blog</h5>
+            </div>
+            <div class="col-md-2 text-center">
+                <a href="https://aka.ms/425Show">
+                    <img src="~/images/twitch.png" alt="425Show Twitch" />
+                </a>
+                <h5>Watch us live</h5>
+            </div>
+            <div class="col-md-2 text-center">
+                 <a href="https://aka.ms/425Show/youtube">
+                    <img src="~/images/youtube.png" alt="425Show YouTube" />
+                </a>
+                <h5>Watch on demand</h5>
+            </div>
+            <div class="col-md-2 text-center">
+                <a href="mailto:425Show@microsoft.com">
+                    <img src="~/images/email.png" alt="425Show Email" />
+                </a>
+                <h5>Email us</h5>
+            </div>
+            <div class="col-md-2 text-center">
+                <a href="https://aka.ms/425Show/discord/join">
+                    <img src="~/images/discord.png" alt="425Show Discord" />
+                </a>
+                <h5>Join our Discord</h5>
+            </div>
+            <div class="col-md-2 text-center">
+                <a href="https://aka.ms/425Show/ig">
+                    <img src="~/images/instagram.png" alt="425Show Discord" />
+                </a>
+                <h5>Follow on Instagram</h5>
+            </div>
         </div>
     </div>
 </div>

@@ -209,12 +209,25 @@ a {
 .social-container h2{
   font-size: 5rem;
   margin-bottom: 25px;
-  color: black;
+  color: white;
+}
+
+.social-container h5{
+  font-size: 1.15rem;
 }
 
 .social-container img {
   max-width: 155px;
-  transition: all 0.25s ease-in-out 0s;
+  transition:ease-in-out .25s;
+}
+
+.social-container img:hover {
+  transform:scale(1.08);
+}
+
+.container-spaces{
+  min-height:500px; 
+  padding-top:100px;
 }
 
 .footer-border {

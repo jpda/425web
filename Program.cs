@@ -2,7 +2,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddHttpClient();
 builder.Services.AddScoped<YouTubeService>();
+builder.Services.AddScoped<TwitterSpaceService>();
 
 var app = builder.Build();
 

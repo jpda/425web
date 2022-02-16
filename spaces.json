@@ -1,0 +1,60 @@
+[
+    {
+        "topic": " Azure AD Graph to MS Graph & ADAL to MSAL",
+        "recordingdate": "02/09/2022",
+        "expirydate":"03/11/2022",
+        "link": "https://twitter.com/markmorow/status/1491456907948675076?s=20&t=BSj8-3T-OqiZ4bh0NO1iYg",
+        "summary": "This week Kyle Marsh and Akanksha Niraliya Garg joined Bailey Bercik, Jef Kazimer and Mark Morowczyski to discuss moving your apps from AAD Graph to MS Graph including how to find those apps as well as the benefits you get. They also discussed the benefits of using the MSAL library and why customers should upgrade from ADAL and not roll their own.",
+        "links": [
+            {
+                "linktext": "FAQ on moving from Azure AD Graph to MS Graph",
+                "linkurl": " https://docs.microsoft.com/en-us/graph/migrate-azure-ad-graph-faq"
+            },
+            {
+                "linktext": "Locating Azure AD Graph Apps",
+                "linkurl": "https://github.com/microsoft/AzureADGraphApps"
+            },
+            {
+                "linktext": "Locating Apps using the ADAL library",
+                "linkurl": " https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-get-list-of-all-active-directory-auth-library-apps"
+            },
+            {
+                "linktext": "Free Azure AD Dev Training for IT Pros",
+                "linkurl": " https://techcommunity.microsoft.com/t5/community-events-list/line-of-business-applications-for-it-pros-check-out-our-upcoming/m-p/3105667?emcs_t=S2h8ZW1haWx8cG1fbm90aWZpY2F0aW9ufEtaNjJFMldQSENBWThCfC0xfFBSSVZBVEVfTUVTU0FHRVN8aEs"
+            },
+            {
+                "linktext": "Free Azure AD Dev Training for Devs",
+                "linkurl": "https://github.com/microsoft/AzureADGraphApps"
+            }
+        ]
+    },
+    {
+        "topic": "Random Topic",
+        "recordingdate": "01/10/2022",
+        "expirydate":"02/11/2022",
+        "link": "https://twitter.com/markmorow/status/1491456907948675076?s=20&t=BSj8-3T-OqiZ4bh0NO1iYg",
+        "summary": "This week Kyle Marsh and Akanksha Niraliya Garg joined Bailey Bercik, Jef Kazimer and Mark Morowczyski to discuss moving your apps from AAD Graph to MS Graph including how to find those apps as well as the benefits you get. They also discussed the benefits of using the MSAL library and why customers should upgrade from ADAL and not roll their own.",
+        "links": [
+            {
+                "linktext": "FAQ on moving from Azure AD Graph to MS Graph",
+                "linkurl": " https://docs.microsoft.com/en-us/graph/migrate-azure-ad-graph-faq"
+            },
+            {
+                "linktext": "Locating Azure AD Graph Apps",
+                "linkurl": "https://github.com/microsoft/AzureADGraphApps"
+            },
+            {
+                "linktext": "Locating Apps using the ADAL library",
+                "linkurl": " https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-get-list-of-all-active-directory-auth-library-apps"
+            },
+            {
+                "linktext": "Free Azure AD Dev Training for IT Pros",
+                "linkurl": " https://techcommunity.microsoft.com/t5/community-events-list/line-of-business-applications-for-it-pros-check-out-our-upcoming/m-p/3105667?emcs_t=S2h8ZW1haWx8cG1fbm90aWZpY2F0aW9ufEtaNjJFMldQSENBWThCfC0xfFBSSVZBVEVfTUVTU0FHRVN8aEs"
+            },
+            {
+                "linktext": "Free Azure AD Dev Training for Devs",
+                "linkurl": "https://github.com/microsoft/AzureADGraphApps"
+            }
+        ]
+    }
+]
