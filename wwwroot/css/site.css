@@ -237,6 +237,30 @@ a {
   padding-top:20px;
 }
 
+.twitterspace-container {
+  background:white; 
+  min-height:500px; 
+  padding-top:100px;
+}
+
+.twitterspace-container h2{
+  font-size: 5rem;
+  margin-bottom: 25px;
+  color: black;
+}
+
+.twitterspace-container h3{
+  font-size: 2.5rem;
+  margin-bottom: 25px;
+  color: black;
+}
+
+.twitterspace-image {
+  height:180px; 
+  display: block;
+  padding-left:30%
+}
+
 .footer-border {
   background: rgb(0, 0, 0);
   padding: 40px 10px;
