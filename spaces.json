@@ -1,6 +1,6 @@
 [
     {
-        "topic": " Azure AD Graph to MS Graph & ADAL to MSAL",
+        "topic": "Azure AD Graph to MS Graph & ADAL to MSAL",
         "recordingdate": "02/09/2022",
         "expirydate":"03/11/2022",
         "link": "https://twitter.com/markmorow/status/1491456907948675076?s=20&t=BSj8-3T-OqiZ4bh0NO1iYg",
@@ -8,7 +8,7 @@
         "links": [
             {
                 "linktext": "FAQ on moving from Azure AD Graph to MS Graph",
-                "linkurl": " https://docs.microsoft.com/en-us/graph/migrate-azure-ad-graph-faq"
+                "linkurl": "https://docs.microsoft.com/en-us/graph/migrate-azure-ad-graph-faq"
             },
             {
                 "linktext": "Locating Azure AD Graph Apps",
@@ -16,11 +16,11 @@
             },
             {
                 "linktext": "Locating Apps using the ADAL library",
-                "linkurl": " https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-get-list-of-all-active-directory-auth-library-apps"
+                "linkurl": "https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-get-list-of-all-active-directory-auth-library-apps"
             },
             {
                 "linktext": "Free Azure AD Dev Training for IT Pros",
-                "linkurl": " https://techcommunity.microsoft.com/t5/community-events-list/line-of-business-applications-for-it-pros-check-out-our-upcoming/m-p/3105667?emcs_t=S2h8ZW1haWx8cG1fbm90aWZpY2F0aW9ufEtaNjJFMldQSENBWThCfC0xfFBSSVZBVEVfTUVTU0FHRVN8aEs"
+                "linkurl": "https://techcommunity.microsoft.com/t5/community-events-list/line-of-business-applications-for-it-pros-check-out-our-upcoming/m-p/3105667?emcs_t=S2h8ZW1haWx8cG1fbm90aWZpY2F0aW9ufEtaNjJFMldQSENBWThCfC0xfFBSSVZBVEVfTUVTU0FHRVN8aEs"
             },
             {
                 "linktext": "Free Azure AD Dev Training for Devs",
@@ -47,6 +47,53 @@
             {
                 "name": "Akanksha Niraliya Garg",
                 "link": "https://twitter.com/aksGarg"
+            }
+        ]
+    },
+    {
+        "topic": "Azure AD Connect and Cloud Sync",
+        "recordingdate": "02/02/2022",
+        "expirydate":"03/04/2022",
+        "link": "https://twitter.com/JefTek/status/1489043494543020039?s=20&t=PcmlYrigOWLISDWrw1Igzg",
+        "summary": " This week Rob de Jong and Dhanyah Krishnamoorthy joined Bailey Bercik, Jef Kazimer and Mark Morowczyski to discuss moving from Azure AD Connect V1 to V2, Azure AD Cloud Sync and what it is and what scenarios it can be used with today, and finally some best practices and running cloud sync in parallel with Azure AD Connect.",
+        "links": [
+            {
+                "linktext": "Azure AD Connect Version History",
+                "linkurl": "https://docs.microsoft.com/en-us/azure/active-directory/hybrid/reference-connect-version-history"
+            },
+            {
+                "linktext": "Azure AD Connect Config Documenter",
+                "linkurl": "https://github.com/Microsoft/AADConnectConfigDocumenter"
+            },
+            {
+                "linktext": "What is Azure AD Connect Cloud Sync",
+                "linkurl": " https://docs.microsoft.com/en-us/azure/active-directory/cloud-sync/what-is-cloud-sync"
+            },
+            {
+                "linktext": "Azure AD Connect Cloud Sync Install and Videos",
+                "linkurl": "https://docs.microsoft.com/en-us/azure/active-directory/cloud-sync/how-to-install"
+            }
+        ],
+        "participants": [
+            {
+                "name": "Mark Morowczynski",
+                "link": "https://twitter.com/markmorow"
+            },
+            {
+                "name": "Jeff Kazimer",
+                "link": "https://twitter.com/jeftek"
+            },
+            {
+                "name": "Bailey Bercik",
+                "link": "https://twitter.com/BaileyBercik"
+            },
+            {
+                "name": "Rob de Jong",
+                "link": "https://twitter.com/rjong999"
+            },
+            {
+                "name": "Dhanyah Krishnamoorthy",
+                "link": "https://twitter.com/DhanyahkMSFT"
             }
         ]
     },
