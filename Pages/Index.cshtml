@@ -230,7 +230,6 @@
                 }
 
                 let link = el.querySelector("link").textContent;
-                let author = el.querySelector("author").textContent;
                 let title = el.querySelector("title").textContent;
                 let description = el.querySelector("description").textContent.substring(0,150) + '...';
                 html += `
@@ -238,7 +237,7 @@
                         <a href="${link}" target="_blank" rel="noreferrer">
                             <span style="color:black"><strong>${title}</strong></span>
                             <div style="margin-top:15px; color:gray;">
-                                <strong>${author}</strong>
+                                <strong>The 425Show Team</strong>
                             </div>
                             <div style="margin-top:15px">
                                 ${description}
