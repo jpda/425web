@@ -1,5 +1,34 @@
 [
     {
+        "topic": "CloudKnox Permissions Management",
+        "recordingdate": "03/09/2022",
+        "expirydate":"04/10/2022",
+        "link": "https://twitter.com/i/spaces/1djGXPZyoovGZ",
+        "summary": "QnA with the CloudKnox feature team for management entitlements in multi-cloud environments",
+        "links": [
+            {
+                "linktext": "CloudKnox Permissions Management is now in Public Preview",
+                "linkurl": "https://techcommunity.microsoft.com/t5/azure-active-directory-identity/cloudknox-permissions-management-is-now-in-public-preview/ba-p/2464391"
+            }
+            
+        ],
+        "participants": [
+            {
+                "name": "Mark Morowczynski",
+                "link": "https://twitter.com/markmorow"
+            },
+            {
+                "name": "Jef Kazimer",
+                "link": "https://twitter.com/jeftek"
+            },
+            {
+                "name": "Bailey Bercik",
+                "link": "https://twitter.com/BaileyBercik"
+            }
+           
+        ]
+    },
+    {
         "topic": "Audience Q&A",
         "recordingdate": "02/23/2022",
         "expirydate":"03/25/2022",
@@ -25,7 +54,7 @@
                 "link": "https://twitter.com/markmorow"
             },
             {
-                "name": "Jeff Kazimer",
+                "name": "Jef Kazimer",
                 "link": "https://twitter.com/jeftek"
             },
             {
@@ -64,7 +93,7 @@
                 "link": "https://twitter.com/markmorow"
             },
             {
-                "name": "Jeff Kazimer",
+                "name": "Jef Kazimer",
                 "link": "https://twitter.com/jeftek"
             },
             {
@@ -123,7 +152,7 @@
                 "link": "https://twitter.com/markmorow"
             },
             {
-                "name": "Jeff Kazimer",
+                "name": "Jef Kazimer",
                 "link": "https://twitter.com/jeftek"
             },
             {
@@ -170,7 +199,7 @@
                 "link": "https://twitter.com/markmorow"
             },
             {
-                "name": "Jeff Kazimer",
+                "name": "Jef Kazimer",
                 "link": "https://twitter.com/jeftek"
             },
             {
@@ -225,7 +254,7 @@
                 "link": "https://twitter.com/markmorow"
             },
             {
-                "name": "Jeff Kazimer",
+                "name": "Jef Kazimer",
                 "link": "https://twitter.com/jeftek"
             },
             {
