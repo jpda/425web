@@ -1,5 +1,35 @@
 [
     {
+        "topic": "KQL Q&A with Microsoft Azure AD Product Team",
+        "recordingdate": "03/16/2022",
+        "expirydate":"04/17/2022",
+        "link": "https://twitter.com/i/spaces/1LyGBojbXwMJN",
+        "summary": "KQL Q&A with Microsoft Azure AD Product Team",
+        "links": [
+            
+            
+        ],
+        "participants": [
+            {
+                "name": "Matt Zorich",
+                "link": "https://twitter.com/reprise_99"
+            },
+            {
+                "name": "Mark Morowczynski - Microsoft",
+                "link": "https://twitter.com/markmorow"
+            },
+            {
+                "name": "Bailey Bercik - Microsoft",
+                "link": "https://twitter.com/BaileyBercik"
+            },
+            {
+                "name": "Jef Kazimer - Microsoft",
+                "link": "https://twitter.com/jeftek"
+            }
+           
+        ]
+    },
+    {
         "topic": "CloudKnox Permissions Management",
         "recordingdate": "03/09/2022",
         "expirydate":"04/10/2022",
@@ -9,21 +39,57 @@
             {
                 "linktext": "CloudKnox Permissions Management is now in Public Preview",
                 "linkurl": "https://techcommunity.microsoft.com/t5/azure-active-directory-identity/cloudknox-permissions-management-is-now-in-public-preview/ba-p/2464391"
+            },
+            {
+                "linktext": "CloudKnox Permissions Management (Documentation)",
+                "linkurl": "https://docs.microsoft.com/en-us/azure/active-directory/cloud-infrastructure-entitlement-management/"
+            },
+            {
+                "linktext": "CloudKnox Frequently asked questions (FAQs)",
+                "linkurl": "https://docs.microsoft.com/en-us/azure/active-directory/cloud-infrastructure-entitlement-management/cloudknox-faqs"
+            },
+            {
+                "linktext": "CloudKnox Permissions Management training videos",
+                "linkurl": "https://docs.microsoft.com/en-us/azure/active-directory/cloud-infrastructure-entitlement-management/cloudknox-training-videos"
             }
             
         ],
         "participants": [
             {
+                "name": "Nick Wryter",
+                "link": "https://twitter.com/nickwryter"
+            },
+            {
+                "name": "Guruprasad Ramprakash",
+                "link": "https://twitter.com/Gururamp30"
+            },
+            {
+                "name": "Steve Ball",
+                "link": "https://twitter.com/llabevets"
+            },
+            {
+                "name": "Maya Neelakandhan",
+                "link": "https://twitter.com/Mayavk"
+            },
+            {
+                "name": "Mrudula Gaidhani",
+                "link": "https://twitter.com/MrudulaGaidhani"
+            },
+            {
+                "name": "Laura Viarengo",
+                "link": "https://twitter.com/Lauraviarengo_"
+            },
+            {
                 "name": "Mark Morowczynski",
                 "link": "https://twitter.com/markmorow"
             },
             {
-                "name": "Jef Kazimer",
-                "link": "https://twitter.com/jeftek"
-            },
-            {
                 "name": "Bailey Bercik",
                 "link": "https://twitter.com/BaileyBercik"
+            },
+            {
+                "name": "Jef Kazimer",
+                "link": "https://twitter.com/jeftek"
             }
            
         ]
