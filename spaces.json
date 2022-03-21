@@ -6,7 +6,22 @@
         "link": "https://twitter.com/i/spaces/1LyGBojbXwMJN",
         "summary": "KQL Q&A with Microsoft Azure AD Product Team",
         "links": [
-            
+            {
+                "linktext": "Must Learn KQL by Rod Trent",
+                "linkurl": "https://github.com/rod-trent/MustLearnKQL"
+            },
+            {
+                "linktext": "Splunk KQL Cheat Sheet",
+                "linkurl": "https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/splunk-cheat-sheet"
+            },
+            {
+                "linktext": "Matt's 365 Days of KQL Repo",
+                "linkurl": "https://github.com/reprise99/Sentinel-Queries"
+            },
+            {
+                "linktext": "Additional links for more KQL resources",
+                "linkurl": "https://twitter.com/BaileyBercik/status/1504460649732005890"
+            }
             
         ],
         "participants": [
