@@ -48,7 +48,76 @@
            
         ]
     },
-    
+    {
+        "topic": "Open QnA w/Microsoft Identity Product Group #MicrosoftIdentityPGChat",
+        "recordingdate": "04/04/2022",
+        "expirydate":"05/03/2022",
+        "link": "https://twitter.com/i/spaces/1nAKEYekWmgKL",
+        "summary": "Open Question and Answer from the audience with topics including Conditional Access, CloudKnox Permissions management, and Passwordless for Chromebooks",
+        "links": [
+            
+            {
+                "linktext": "Links shared by @BaileyBercik on Twitter during show",
+                "linkurl": "https://twitter.com/BaileyBercik/status/1511736492149813249"
+            },
+            {
+                "linktext": "ThreadReaderApp of links shared during show",
+                "linkurl": "https://threadreaderapp.com/thread/1511736492149813249.html"
+            },
+            {
+                "linktext": "CloudKnox Permission Management Public Preview",
+                "linkurl": "https://techcommunity.microsoft.com/t5/azure-active-directory-identity/cloudknox-permissions-management-is-now-in-public-preview/ba-p/2464391"
+            },
+            {
+                "linktext": "Hybrid Cloud Trust Deployment (Preview)",
+                "linkurl": "https://docs.microsoft.com/en-us/windows/security/identity-protection/hello-for-business/hello-hybrid-cloud-trust"
+            },
+            {
+                "linktext": "Conditional Access Policy templates",
+                "linkurl": "https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/concept-conditional-access-policy-common#conditional-access-templates-preview"
+            },
+            {
+                "linktext": "Introducing Azure AD custom security attributes",
+                "linkurl": "https://techcommunity.microsoft.com/t5/azure-active-directory-identity/introducing-azure-ad-custom-security-attributes/ba-p/2147068"
+            },
+            {
+                "linktext": "Browser support of FIDO2 passwordless authentication - Now with ChromeOS support!",
+                "linkurl": "https://docs.microsoft.com/en-us/azure/active-directory/authentication/fido2-compatibility"
+            },
+            {
+                "linktext": "Microsoft Enterprise SSO plug-in for Apple devices (preview)",
+                "linkurl": "https://docs.microsoft.com/en-us/azure/active-directory/develop/apple-sso-plugin"
+            },
+            {
+                "linktext": "What is Azure Active Directory recommendations (preview)?",
+                "linkurl": "https://docs.microsoft.com/en-us/azure/active-directory/reports-monitoring/overview-recommendations"
+            },
+            {
+                "linktext": "Free Azure AD Dev Training for IT Pros",
+                "linkurl": "https://techcommunity.microsoft.com/t5/community-events-list/line-of-business-applications-for-it-pros-check-out-our-upcoming/m-p/3105667?emcs_t=S2h8ZW1haWx8cG1fbm90aWZpY2F0aW9ufEtaNjJFMldQSENBWThCfC0xfFBSSVZBVEVfTUVTU0FHRVN8aEs"
+            },
+            {
+                "linktext": "Free Azure AD Dev Training for Devs",
+                "linkurl": "https://github.com/microsoft/AzureADGraphApps"
+            }
+            
+        ],
+        "participants": [
+            {
+                "name": "Mark Morowczynski - Microsoft",
+                "link": "https://twitter.com/markmorow"
+            },
+            {
+                "name": "Bailey Bercik - Microsoft",
+                "link": "https://twitter.com/BaileyBercik"
+            },
+            {
+                "name": "Jef Kazimer - Microsoft",
+                "link": "https://twitter.com/jeftek"
+            }
+           
+        ]
+    },
     {
         "topic": "KQL Q&A with Microsoft Azure AD Product Team",
         "recordingdate": "03/16/2022",
