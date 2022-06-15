@@ -45,6 +45,55 @@
         ]
     },
     {
+        "topic": "Governance QnA w/Microsoft Identity Product Group #MicrosoftIdentityPGChat",
+        "recordingdate": "04/20/2022",
+        "expirydate":"05/20/2022",
+        "link": "https://twitter.com/i/spaces/1RDGlgngBRzKL",
+        "summary": "Open Question and Answer from the audience with governance topics including Entitlement Managment, Access Reviews, and PIM",
+        "links": [
+            
+            {
+            "linktext": "Links shared by @MarkMorow on Twitter during show",
+            "linkurl": "https://twitter.com/markmorow/status/1516809485276237824"
+            },
+            {
+            "linktext": "Getting Started with Governance",
+            "linkurl": "https://docs.microsoft.com/en-us/azure/active-directory/governance/"
+            },
+            {
+            "linktext": "The New Governance Wizard to get you started on why and how!",
+            "linkurl": "https://portal.office.com/adminportal/home?#/identitygovernance"
+            },
+            {
+            "linktext": "Additional Identity Governance events and resources",
+            "linkurl": "https://techcommunity.microsoft.com/t5/azure-active-directory-identity/make-azure-ad-identity-governance-work-for-you/ba-p/2810643"
+            }        
+        ],
+        "participants": [
+            {
+                "name": "Christos Matskas - Microsoft",
+                "link": "https://twitter.com/christosmatskas"
+            },
+            {
+                "name": "Shannon Kuehn - Microsoft",
+                "link": "https://twitter.com/shankuehn"
+            },
+            {
+                "name": "Mark Morowczynski - Microsoft",
+                "link": "https://twitter.com/markmorow"
+            },
+            {
+                "name": "Bailey Bercik - Microsoft",
+                "link": "https://twitter.com/BaileyBercik"
+            },
+            {
+                "name": "Jef Kazimer - Microsoft",
+                "link": "https://twitter.com/jeftek"
+            }
+           
+        ]
+    },
+    {
         "topic": "Open QnA w/Microsoft Identity Product Group #MicrosoftIdentityPGChat",
         "recordingdate": "04/04/2022",
         "expirydate":"05/03/2022",
