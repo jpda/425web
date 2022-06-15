@@ -1,37 +1,33 @@
 [
     {
-        "topic": "Governance QnA w/Microsoft Identity Product Group #MicrosoftIdentityPGChat",
-        "recordingdate": "04/20/2022",
-        "expirydate":"05/20/2022",
-        "link": "https://twitter.com/i/spaces/1RDGlgngBRzKL",
-        "summary": "Open Question and Answer from the audience with governance topics including Entitlement Managment, Access Reviews, and PIM",
+        "topic": "Exchange Online Basic Authentication Deprecation",
+        "recordingdate": "06/15/2022",
+        "expirydate":"07/15/2022",
+        "link": "https://twitter.com/i/spaces/1gqxvlEvAWpGB",
+        "summary": "Greg Taylor from the Exchange team discusses the upcoming deprecation of basic authentication and what you should do to prepare if you haven't started already.",
         "links": [
             
             {
             "linktext": "Links shared by @MarkMorow on Twitter during show",
-            "linkurl": "https://twitter.com/markmorow/status/1516809485276237824"
+            "linkurl": "https://twitter.com/markmorow/status/1537103943632769026"
             },
             {
-            "linktext": "Getting Started with Governance",
-            "linkurl": "https://docs.microsoft.com/en-us/azure/active-directory/governance/"
+            "linktext": "How do you know if your users will be impacted?",
+            "linkurl": "https://docs.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/deprecation-of-basic-authentication-exchange-online#how-do-you-know-if-your-users-will-be-impacted"
             },
             {
-            "linktext": "The New Governance Wizard to get you started on why and how!",
-            "linkurl": "https://portal.office.com/adminportal/home?#/identitygovernance"
+            "linktext": "Azure AD Workbook to look for basic authentication",
+            "linkurl": "https://docs.microsoft.com/en-us/azure/active-directory/reports-monitoring/workbook-legacy%20authentication"
             },
             {
-            "linktext": "Additional Identity Governance events and resources",
-            "linkurl": "https://techcommunity.microsoft.com/t5/azure-active-directory-identity/make-azure-ad-identity-governance-work-for-you/ba-p/2810643"
+            "linktext": "Exchange Basic Auth Update May 2022",
+            "linkurl": "https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-authentication-deprecation-in-exchange-online-may-2022/ba-p/3301866"
             }        
         ],
         "participants": [
             {
-                "name": "Christos Matskas - Microsoft",
-                "link": "https://twitter.com/christosmatskas"
-            },
-            {
-                "name": "Shannon Kuehn - Microsoft",
-                "link": "https://twitter.com/shankuehn"
+                "name": "Greg Taylor - Microsoft",
+                "link": "https://twitter.com/Gregtaylor_msft"
             },
             {
                 "name": "Mark Morowczynski - Microsoft",
