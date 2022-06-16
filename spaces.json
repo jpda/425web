@@ -1,5 +1,50 @@
 [
     {
+        "topic": "Exchange Online Basic Authentication Deprecation",
+        "recordingdate": "06/15/2022",
+        "expirydate":"07/15/2022",
+        "link": "https://twitter.com/i/spaces/1gqxvlEvAWpGB",
+        "summary": "Greg Taylor from the Exchange team discusses the upcoming deprecation of basic authentication and what you should do to prepare if you haven't started already.",
+        "links": [
+            
+            {
+            "linktext": "Links shared by @MarkMorow on Twitter during show",
+            "linkurl": "https://twitter.com/markmorow/status/1537103943632769026"
+            },
+            {
+            "linktext": "How do you know if your users will be impacted?",
+            "linkurl": "https://docs.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/deprecation-of-basic-authentication-exchange-online#how-do-you-know-if-your-users-will-be-impacted"
+            },
+            {
+            "linktext": "Azure AD Workbook to look for basic authentication",
+            "linkurl": "https://docs.microsoft.com/en-us/azure/active-directory/reports-monitoring/workbook-legacy%20authentication"
+            },
+            {
+            "linktext": "Exchange Basic Auth Update May 2022",
+            "linkurl": "https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-authentication-deprecation-in-exchange-online-may-2022/ba-p/3301866"
+            }        
+        ],
+        "participants": [
+            {
+                "name": "Greg Taylor - Microsoft",
+                "link": "https://twitter.com/Gregtaylor_msft"
+            },
+            {
+                "name": "Mark Morowczynski - Microsoft",
+                "link": "https://twitter.com/markmorow"
+            },
+            {
+                "name": "Bailey Bercik - Microsoft",
+                "link": "https://twitter.com/BaileyBercik"
+            },
+            {
+                "name": "Jef Kazimer - Microsoft",
+                "link": "https://twitter.com/jeftek"
+            }
+           
+        ]
+    },
+    {
         "topic": "Governance QnA w/Microsoft Identity Product Group #MicrosoftIdentityPGChat",
         "recordingdate": "04/20/2022",
         "expirydate":"05/20/2022",
