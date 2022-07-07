@@ -1,5 +1,66 @@
 [
     {
+        "topic": "Identity Open Standards",
+        "recordingdate": "06/29/2022",
+        "expirydate":"07/29/2022",
+        "link": "https://twitter.com/i/spaces/1yoKMWXoXboJQ?s=20",
+        "summary": "Pam Dingle, Kristina Yasuda, Pieter Kasselman and Tim Cappalli discuss the importance of open standardds in identity, why they matter to you and what you should be focusing on.",
+        "links": [
+            
+            {
+            "linktext": "Links shared by @BaileyBercik on Twitter during show",
+            "linkurl": "https://twitter.com/BaileyBercik/status/1542176938663415808?s=20&t=bBfsFq8ZKDUFmHgAh78MQA"
+            },
+            {
+            "linktext": "OAuth 2 RFC Link Tree",
+            "linkurl": "https://linktr.ee/oauth2"
+            },
+            {
+            "linktext": "Decentralized Identity Link Tree",
+            "linkurl": "https://linktr.ee/decentralizedidentity"
+            },
+            {
+            "linktext": "Identity Standards Blog",
+            "linkurl": "https://techcommunity.microsoft.com/t5/identity-standards-blog/bg-p/IdentityStandards"
+            }        
+        ],
+        "participants": [
+            {
+                "name": "Pam Dingle - Microsoft",
+                "link": "https://twitter.com/pamelarosiedee"
+            },
+            {
+                "name": "Pam Dingle - Microsoft",
+                "link": "https://twitter.com/pamelarosiedee"
+            },
+            {
+                "name": "Kristina Yasuda - Microsoft",
+                "link": "https://twitter.com/kristinayasuda"
+            },
+            {
+                "name": "Pieter Kasselman - Microsoft",
+                "link": "https://twitter.com/PieterKasselman"
+            },
+            {
+                "name": "Tim Cappalli - Microsoft",
+                "link": "https://twitter.com/timcappalli"
+            },
+            {
+                "name": "Mark Morowczynski - Microsoft",
+                "link": "https://twitter.com/markmorow"
+            },
+            {
+                "name": "Bailey Bercik - Microsoft",
+                "link": "https://twitter.com/BaileyBercik"
+            },
+            {
+                "name": "Jef Kazimer - Microsoft",
+                "link": "https://twitter.com/jeftek"
+            }
+           
+        ]
+    },
+    {
         "topic": "Exchange Online Basic Authentication Deprecation",
         "recordingdate": "06/15/2022",
         "expirydate":"07/15/2022",
