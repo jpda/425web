@@ -1,5 +1,46 @@
 [
     {
+        "topic": "Workload Identities",
+        "recordingdate": "07/12/2022",
+        "expirydate":"08/12/2022",
+        "link": "https://twitter.com/i/spaces/1YqKDqqrMdVGV?s=20",
+        "summary": "John Patrick Dandison, Jef Kazimer, and Mark Morowczynski discuss Workload Identities",
+        "links": [
+            
+            {
+            "linktext": "Links shared by @markmorow on Twitter during show",
+            "linkurl": "https://twitter.com/markmorow/status/1547251745968963586?s=20&t=kqL28oBlP3WXY-xUc8o8LQ"
+            },
+            {
+            "linktext": "Blog Announcement",
+            "linkurl": "https://techcommunity.microsoft.com/t5/microsoft-entra-azure-ad-blog/managing-governing-and-securing-identities-for-apps-and-services/ba-p/3402816"
+            },
+            {
+            "linktext": "Workload Identities discussed at SANS CloudSecNext 2022",
+            "linkurl": "https://www.youtube.com/watch?v=o39NhfCweBc"
+            },
+            {
+            "linktext": "Securing & Monitoring Workload Identities",
+            "linkurl": "https://techcommunity.microsoft.com/t5/microsoft-entra-azure-ad-blog/learn-how-to-secure-and-monitor-workload-identities-with-a/ba-p/2810640"
+            }        
+        ],
+        "participants": [
+            {
+                "name": "John Patrick Dandison - Microsoft",
+                "link": "https://twitter.com/jpda__"
+            },
+            {
+                "name": "Mark Morowczynski - Microsoft",
+                "link": "https://twitter.com/markmorow"
+            },
+            {
+                "name": "Jef Kazimer - Microsoft",
+                "link": "https://twitter.com/jeftek"
+            }
+           
+        ]
+    },
+    {
         "topic": "Identity Open Standards",
         "recordingdate": "06/29/2022",
         "expirydate":"07/29/2022",
